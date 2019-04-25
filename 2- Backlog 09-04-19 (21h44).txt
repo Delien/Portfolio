@@ -1,0 +1,13 @@
+- Recherche image 'icones compétence' et ajout dossier pictures
+- Nettoyage html (indentation et code inutile)
+
+idée pour prochain -> fond page noire, fond container gris "foncé"
+
+titre -> jaune ou vert clair -> police blanc ou vert clair
+
+liens -> couleurs semblable titres / police
+
+nav générale -> bootstrap
+
+nav cv -> menu latéral -> bootstrap
+
