@@ -1,79 +1,112 @@
 <!DOCTYPE html>
 <html lang="Fr">
     
-  <head>
-      <title>Accueil | Nathan Marcy </title>
-      <link href="./css/index.css" rel="stylesheet" type="text/css" />
-      <meta charset="utf-8" />
-  </head>
+<head>
+    <title>Accueil | Nathan Marcy </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="./css/globalCss.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8" />
+</head>
     
-  <body>
+<body>
       
      
-    <div id="page">
-         
-        <header>
-            <h1>Accueil | Nathan Marcy</h1>       
-        </header>
-        
-        <nav>    
-            <ul>
-                <li><a href="./index.html" class="home">Accueil</a></li>
-                <li><a href="./cv.html" class="cv">Mon C.V</a></li>
-                <li><a href="./blog.html" class="blog">Blog</a></li>
-            </ul>
+<div class="container">
+    <div class="col-12 span-2">
+<!--nav et banniere-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="./index.html">Accueil</a>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cv.html">Mon C.V <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./blog.html">Blog</a>
+                    </li>
+                </ul>
+      
+            </div>
         </nav>
-         
-        <div id="banniere">
-            <img src="" alt="bannière du site" />
-        </div>
-         
-         
-        <div class="content">
-    
-            <div class="bienvenue">
 
-            <hr>
+        <header>
+            <img src="./pictures/banniere2.jpg" class="img-fluid banniere" alt="bannière du site" />       
+        </header>
+
+        <div class="row">
+            <div class="col-9 span-1">
+
+                <hr>
                 <p>Je suis Nathan et j'apprends les bases
-                du métier de développeur-intégrateur Web.</p>
+                du métier de développeur Web.</p>
+                <p>Après avoir appris Html et Css de manière autodidacte, j'ai intégré la formation de développeur
+                    JavaScript de la Wild Code School. </p>
                 <p>Ce site fait partie des projets personnels que j'entreprends pour appliquer
                     mes nouvelles connaissances théoriques.</p>
                 <p>N'hésitez pas à jeter un
-                    coup d'oeil à la partie "Blog" pour suivre mon évolution.</p>
+                coup d'oeil à la partie "Blog" pour suivre l'évolution du site et de mes projets.</p>
             </div>   
+    
+
+            <div class="col">
+                <img src="./pictures/Imagepcweb.png" class="img-fluid pcWeb" alt="icone ordinateur" />
+            </div>
         </div>
 
-        <div class="proimg">
-        </div>
-
-        <hr>
-
-        <div class="langages">
+        <div class="row">
             <h1>Langages / Frameworks</h1>
-            <ul>
-                <li class="html5">HTML 5</li>
-                <li class="css3">CSS 3</li>
-            </ul>
         </div>
 
-        <footer>
-            <div class="contactg">
-                <p>Nathan Marcy</p>
-                <a href="mailto:contact@nathan-marcy.fr">contact@nathan-marcy.fr</a>
-            </div>
+        <div class="row">
+            <h1 class="text-hide" 
+                style="background-image: url('./pictures/html.svg')">Html</h1>
+            <h1 class="text-hide" 
+                style="background-image: url('./pictures/css.svg')">Css</h1>
+            <h1 class="text-hide" 
+                style="background-image: url('./pictures/bootstrap.svg');">Bootstrap</h1>
+            <h1 class="text-hide" 
+                style="background-image: url('./pictures/js.svg')">Js</h1>
+            <h1 class="text-hide" 
+                style="background-image: url('./pictures/node.svg')">node</h1>
+            <h1 class="text-hide" 
+                style="background-image: url('./pictures/reactjs.svg')">ReactJs</h1>
+        </div>
 
-            <div class="contactc">
-                <p>Portefolio by Nathan Marcy - 10/07/2018</p>
-            </div>
-
-            <div class="contactd">
-                <p>Développeur-Intégrateur Web autodidacte, suivez l'évolution de mon apprentissage à travers ce site portefolio.</p>
-            </div>
-
-        </footer>
-         
+<!--Footer-->
+        <footer class="page-footer font-small allFooter">
+                <div class="footerContainer">
+                    <div class="row text-center d-flex justify-content-center pt-5 mb-3 footer">
+                        <div class="col-md-6">
+                            <h6 class="text-uppercase font-weight-bold">
+                                Développeur Web en formation, suivez l'évolution de mon apprentissage à travers ce site portefolio 
+                            </h6>
+                        </div>
+                        <div class="col-md-2">
+                            <button type="button" class="btn btn-light">
+                                <a href="mailto:contact@nathan-marcy.fr">Contact</a>
+                            </button>    
+                            </h6>
+                        </div> 
+                    </div>
+                    <hr class="rgba-white-light" style="margin: 0 15%;">  
+                </div>
+                <div class="footer-copyright text-center py-3">© 2018 Copyright: Portefolio by Nathan Marcy</div>
+            </footer>
+</div>     
     </div>
-      
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
   </body>
     
 </html>

@@ -1,0 +1,83 @@
+/* Css Global de la page*/
+    /* Bannière */
+* {
+    font-size : 1rem;
+    color : whitesmoke;
+}
+hr {
+    border : 0.01em solid white;
+}
+.img-fluid {
+    min-width: 100%;
+    height : 10rem;
+}
+
+    /* Navbar */
+
+nav {
+    margin-bottom : 0.25rem;
+}
+    /* Police de texte */
+
+h1{
+    font-size : 1.30rem;
+    border-bottom : 0.01rem solid whitesmoke;
+    padding : 0 1.5rem 1rem 0;
+    margin : 0.5rem 0 1rem 0;
+}
+.allFooter h6 {
+    font-size : 0.75rem;
+}
+.footer-copyright {
+    font-size: 0.75rem;
+}
+.allFooter a {
+    color : grey;
+}
+.allFooter button {
+    position : relative;
+    bottom : 0.5rem;
+}
+    /* Backgrounds */
+
+body{
+    background-color : #0A0A0A;
+} 
+.container {
+    background-color :#1E1B1B;
+}
+.footerContainer {
+    background-color: #343a40 ;
+}
+.footer-copyright {
+    background-color: #343a40 ;
+}
+/* Page d'acceuil 
+---------------------------------------*/
+
+.pcWeb {
+    width : 100%;
+    height : 18rem;
+    margin-top : 1rem;
+}
+.text-hide{
+    width: 100px; 
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin : 1rem; 
+}
+
+/* Responsive Design 
+-------------------------------------*/
+
+@media all and (max-width: 1024px) {
+    
+    .banniere {
+        display: none;
+    }
+    .pcWeb {
+        height : 50%;
+        width : 50%;
+    }
+}
