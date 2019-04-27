@@ -2,7 +2,7 @@
     /* Bannière */
 * {
     font-size : 1rem;
-    color : white;
+    color : whitesmoke;
 }
 hr {
     border : 0.01em solid white;
@@ -21,15 +21,37 @@ nav {
 
 h1{
     font-size : 1.30rem;
+    border-bottom : 0.01rem solid whitesmoke;
+    padding : 0 1.5rem 1rem 0;
+    margin : 0.5rem 0 1rem 0;
+}
+.allFooter h6 {
+    font-size : 0.75rem;
+}
+.footer-copyright {
+    font-size: 0.75rem;
+}
+.allFooter a {
+    color : grey;
+}
+.allFooter button {
+    position : relative;
+    bottom : 0.5rem;
 }
     /* Backgrounds */
 
 body{
     background-color : #0A0A0A;
-}    
-.container{
+} 
+.container {
     background-color :#1E1B1B;
-}    
+}
+.footerContainer {
+    background-color: #343a40 ;
+}
+.footer-copyright {
+    background-color: #343a40 ;
+}
 /* Page d'acceuil 
 ---------------------------------------*/
 
@@ -45,6 +67,7 @@ body{
     background-repeat: no-repeat;
     margin : 1rem; 
 }
+
 /* Responsive Design 
 -------------------------------------*/
 
