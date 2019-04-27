@@ -1,61 +1,83 @@
 <!DOCTYPE html>
 <html lang="Fr">
     
-  <head>
-      <title>Accueil | Nathan Marcy </title>
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+<head>
+    <title>Accueil | Nathan Marcy </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      <link href="./css/globalCss.css" rel="stylesheet" type="text/css" />
-      <meta charset="utf-8" />
-  </head>
+    <link href="./css/globalCss.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8" />
+</head>
     
-  <body>
+<body>
       
      
-    <div id="page">
-         
-        <header>
-            <h1>Accueil | Nathan Marcy</h1>       
-        </header>
+<div class="container">
+    <div class="col-12 span-2">
         
-        <nav>    
-            <ul>
-                <li><a href="./index.html" class="home">Accueil</a></li>
-                <li><a href="./cv.html" class="cv">Mon C.V</a></li>
-                <li><a href="./blog.html" class="blog">Blog</a></li>
-            </ul>
-        </nav>
-         
-        <div id="banniere">
-            <img src="" alt="bannière du site" />
-        </div>
-         
-         
-        <div class="content">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="./index.html">Accueil</a>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cv.html">Mon C.V <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./blog.html">Blog</a>
+                    </li>
+                </ul>
     
-            <div class="bienvenue">
+            </div>
+        </nav>
+        
+        <header>
+            <img src="./pictures/banniere2.jpg" class="img-fluid banniere" alt="bannière du site" />       
+        </header>
+       
+        <div class="row">
+            <div class="col-9 span-1">
 
-            <hr>
+                <hr>
                 <p>Je suis Nathan et j'apprends les bases
-                du métier de développeur-intégrateur Web.</p>
+                du métier de développeur Web.</p>
+                <p>Après avoir appris Html et Css de manière autodidacte, j'ai intégré la formation de développeur
+                    JavaScript de la Wild Code School. </p>
                 <p>Ce site fait partie des projets personnels que j'entreprends pour appliquer
                     mes nouvelles connaissances théoriques.</p>
                 <p>N'hésitez pas à jeter un
-                    coup d'oeil à la partie "Blog" pour suivre mon évolution.</p>
+                coup d'oeil à la partie "Blog" pour suivre l'évolution du site et de mes projets.</p>
             </div>   
-        </div>
+    
 
-        <div class="proimg">
+            <div class="col">
+                <img src="./pictures/Imagepcweb.png" class="img-fluid pcWeb" alt="icone ordinateur" />
+            </div>
         </div>
 
         <hr>
 
-        <div class="langages">
+        <div class="row">
             <h1>Langages / Frameworks</h1>
-            <ul>
-                <li class="html5">HTML 5</li>
-                <li class="css3">CSS 3</li>
-            </ul>
+        </div>
+
+        <div class="row">
+            <h1 class="text-hide" 
+                style="background-image: url('./pictures/html.svg')">Html</h1>
+            <h1 class="text-hide" 
+                style="background-image: url('./pictures/css.svg')">Css</h1>
+            <h1 class="text-hide" 
+                style="background-image: url('./pictures/bootstrap.svg');">Bootstrap</h1>
+            <h1 class="text-hide" 
+                style="background-image: url('./pictures/js.svg')">Js</h1>
+            <h1 class="text-hide" 
+                style="background-image: url('./pictures/node.svg')">node</h1>
+            <h1 class="text-hide" 
+                style="background-image: url('./pictures/reactjs.svg')">ReactJs</h1>
         </div>
 
         <footer>
@@ -73,7 +95,7 @@
             </div>
 
         </footer>
-         
+</div>     
     </div>
   
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
