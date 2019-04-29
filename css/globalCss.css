@@ -17,6 +17,20 @@ hr {
 nav {
     margin-bottom : 0.25rem;
 }
+    /* Footer */
+
+.allFooter img {
+    margin-left : 0.75rem;
+}
+.likedin {
+    background-color : white;
+    background-size : contain;
+    border-radius : 0.25rem;
+}
+.contact {
+    width : 48px;
+    height : 48px;
+}
     /* Police de texte */
 
 h1{
@@ -45,12 +59,6 @@ body{
 } 
 .container {
     background-color :#1E1B1B;
-}
-.footerContainer {
-    background-color: #343a40 ;
-}
-.footer-copyright {
-    background-color: #343a40 ;
 }
 /* Page d'acceuil 
 ---------------------------------------*/
