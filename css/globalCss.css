@@ -75,7 +75,22 @@ body{
     background-repeat: no-repeat;
     margin : 1rem; 
 }
+/* Blog */
 
+.card-img-top {
+    height : 20rem;
+    
+}
+.card-img-top:hover {
+    opacity : 0.5;
+}
+div .card-body {
+    background-color : #1E1B1B;
+}
+.card {
+    height : 34rem;
+    margin-top : 1.5rem;
+}
 /* Responsive Design 
 -------------------------------------*/
 
