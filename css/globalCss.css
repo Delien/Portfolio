@@ -1,5 +1,5 @@
 /* Css Global de la page*/
-    /* Bannière */
+    
 * {
     font-size : 1rem;
     color : whitesmoke;
@@ -7,20 +7,20 @@
 hr {
     border : 0.01em solid white;
 }
+    /* Bannière */
 .img-fluid {
     min-width: 100%;
     height : 10rem;
+    margin-bottom : 0.5rem;
 }
 
-    /* Navbar */
-
-nav {
-    margin-bottom : 0.25rem;
-}
     /* Footer */
 
 .allFooter img {
     margin-left : 0.75rem;
+}
+.allFooter img:hover{
+    opacity : 0.5;
 }
 .likedin {
     background-color : white;
@@ -55,7 +55,7 @@ h1{
     /* Backgrounds */
 
 body{
-    background-color : #0A0A0A;
+    background-color :#262222;
 } 
 .container {
     background-color :#1E1B1B;
@@ -85,7 +85,7 @@ body{
     opacity : 0.5;
 }
 div .card-body {
-    background-color : #1E1B1B;
+    background-color : #262222;
 }
 .card {
     height : 34rem;
