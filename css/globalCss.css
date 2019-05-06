@@ -1,131 +1,129 @@
 /* Css Global de la page*/
-    
+
 * {
-    font-size : 1rem;
-    color : whitesmoke;
+  font-size: 1rem;
+  color: whitesmoke;
 }
 hr {
-    border : 0.01em solid white;
+  border: 0.01em solid white;
 }
-    /* Bannière */
+/* Bannière */
 .img-fluid {
-    min-width: 100%;
-    height : 10rem;
-    margin-bottom : 0.5rem;
+  min-width: 100%;
+  height: 10rem;
+  margin-bottom: 0.5rem;
 }
 
-    /* Footer */
+/* Footer */
 
 .allFooter img {
-    margin-left : 0.75rem;
+  margin-left: 0.75rem;
 }
-.allFooter img:hover{
-    opacity : 0.5;
+.allFooter img:hover {
+  opacity: 0.5;
 }
 .likedin {
-    background-color : white;
-    background-size : contain;
-    border-radius : 0.25rem;
+  background-color: white;
+  background-size: contain;
+  border-radius: 0.25rem;
 }
 .contact {
-    width : 48px;
-    height : 48px;
+  width: 48px;
+  height: 48px;
 }
-    /* Police de texte */
+/* Police de texte */
 
-h1{
-    font-size : 1.30rem;
-    border-bottom : 0.01rem solid whitesmoke;
-    padding : 0 1.5rem 1rem 0;
-    margin : 0.5rem 0 1rem 0;
+h1 {
+  font-size: 1.3rem;
+  border-bottom: 0.01rem solid whitesmoke;
+  padding: 0 1.5rem 1rem 0;
+  margin: 0.5rem 0 1rem 0;
 }
 .allFooter h6 {
-    font-size : 0.75rem;
+  font-size: 0.75rem;
 }
 .footer-copyright {
-    font-size: 0.75rem;
+  font-size: 0.75rem;
 }
 .allFooter a {
-    color : grey;
+  color: grey;
 }
 .allFooter button {
-    position : relative;
-    bottom : 0.5rem;
+  position: relative;
+  bottom: 0.5rem;
 }
-    /* Backgrounds */
+/* Backgrounds */
 
-body{
-    background-color :#262222;
-} 
+body {
+  background-color: #262222;
+}
 .container {
-    background-color :#1E1B1B;
+  background-color: #1e1b1b;
 }
 /* Page d'acceuil 
 ---------------------------------------*/
 
 .pcWeb {
-    width : 100%;
-    height : 18rem;
-    margin-top : 1rem;
+  width: 100%;
+  height: 18rem;
+  margin-top: 1rem;
 }
-.text-hide img{
-    width: 65px; 
-    height: 65px;
-    margin : 1rem; 
+.text-hide img {
+  width: 65px;
+  height: 65px;
+  margin: 1rem;
 }
 .text-hide figcaption {
-    opacity : 0;
-    position : relative;
-    bottom : 3rem;
-    left : 0.9rem;
-    background-color : black;
+  opacity: 0;
+  position: relative;
+  bottom: 3rem;
+  left: 0.9rem;
+  background-color: black;
 }
-.text-hide:hover img{
-    opacity: 0.1;
+.text-hide:hover img {
+  opacity: 0.1;
 }
 
-.text-hide:hover figcaption{
-    opacity: 1;
+.text-hide:hover figcaption {
+  opacity: 1;
 }
 .text-hide figcaption.css_text {
-    position : relative;
-    left : 1.5rem;
+  position: relative;
+  left: 1.5rem;
 }
 .langages {
-    align-content: center;
+  align-content: center;
 }
 /* Blog */
 
 .card-img-top {
-    height : 20rem;
-    
+  height: 20rem;
 }
 .card-img-top:hover {
-    opacity : 0.5;
+  opacity: 0.5;
 }
 div .card-body {
-    background-color : #262222;
+  background-color: #262222;
 }
 .card {
-    height : 34rem;
-    margin-top : 1.5rem;
+  height: 34rem;
+  margin-top: 1.5rem;
 }
 /* Responsive Design 
 -------------------------------------*/
 
 @media all and (max-width: 1024px) {
-    
-    .banniere {
-        display: none;
-    }
-    .pcWeb {
-        height : 50%;
-        width : 50%;
-    }
+  .banniere {
+    display: none;
+  }
+  .pcWeb {
+    height: 50%;
+    width: 50%;
+  }
 }
 
-@media all and (max-width : 536px) {
-    .pcWeb {
-        display : none;
-    }
+@media all and (max-width: 536px) {
+  .pcWeb {
+    display: none;
+  }
 }
