@@ -127,6 +127,12 @@ div .card-body {
   margin: 0 auto;
   width: 50%;
 }
+.photo {
+  width: 20vw;
+}
+.photo:hover {
+  opacity: 0.5;
+}
 /* Responsive Design 
 -------------------------------------*/
 
@@ -158,5 +164,8 @@ div .card-body {
   }
   .card-img-top {
     height: 10rem;
+  }
+  .photo {
+    width: 25vw;
   }
 }
