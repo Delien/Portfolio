@@ -101,10 +101,7 @@ body {
   position: relative;
   left: 1.75rem;
 }
-.langTitle {
-  width: 50%;
-  margin: 0 0 1rem 5rem;
-}
+
 /* Page Blog */
 
 .card-img-top {
@@ -139,6 +136,27 @@ div .card-body {
   bottom: 10px;
   right: -100px;
   opacity: 0.5;
+}
+.contactIntro {
+  padding-top: 13rem;
+}
+.categories {
+  margin-top: 2.5rem;
+}
+.categories h1 {
+  font-size: 1.5rem;
+}
+.liste li {
+  list-style: none;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+.categories li strong {
+  color: yellowgreen;
+}
+.entete {
+  margin-bottom: 2rem 0;
 }
 /* Sidebar ------------------------------*/
 .sidenav {
@@ -203,6 +221,9 @@ div .card-body {
   .openArrow {
     left: -0.75rem;
   }
+  .contactIntro {
+    padding-top: 5rem;
+  }
 }
 
 @media all and (max-width: 536px) {
@@ -227,5 +248,9 @@ div .card-body {
   }
   .openArrow {
     left: -0.5rem;
+  }
+  .contactIntro {
+    padding-top: 0;
+    padding-right: 2.25rem;
   }
 }
