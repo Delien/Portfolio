@@ -62,8 +62,8 @@ body {
 }
 .bg-dark {
   background-color: #262222 !important;
-  border: solid white 0.02rem;
-  margin-bottom: 0.1rem;
+  border-bottom: solid white 0.02rem;
+  margin-bottom: 0.2rem;
 }
 /* Page d'acceuil 
 ---------------------------------------*/
