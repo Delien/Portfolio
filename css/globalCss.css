@@ -126,12 +126,13 @@ div .card-body {
   .pcWeb {
     display: none;
   }
-  .allFooter {
-    margin-top: 5rem;
+  .card {
+    margin-top: 2rem;
   }
-}
-@media all and (max-width: 360px) {
-  .allFooter {
-    margin-top: 8rem;
+  .card-img-top {
+    height: 15rem;
+  }
+  .card-text {
+    font-size: 0.8rem;
   }
 }
