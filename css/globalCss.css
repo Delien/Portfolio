@@ -60,6 +60,11 @@ body {
 .container {
   background-color: #1e1b1b;
 }
+.bg-dark {
+  background-color: #262222 !important;
+  border: solid white 0.02rem;
+  margin-bottom: 0.1rem;
+}
 /* Page d'acceuil 
 ---------------------------------------*/
 
@@ -108,7 +113,7 @@ div .card-body {
 .card {
   height: 30rem;
   margin-top: 1rem;
-  width: 65rem;
+  width: 95%;
   margin: 0 auto;
 }
 /* Page C.V 
