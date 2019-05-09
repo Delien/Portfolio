@@ -20,7 +20,7 @@ hr {
   margin-left: 0.75rem;
 }
 .allFooter img:hover {
-  opacity: 0.5;
+  opacity: 0.2;
 }
 .likedin {
   background-color: white;
@@ -105,7 +105,7 @@ body {
   height: 15rem;
 }
 .card-img-top:hover {
-  opacity: 0.5;
+  opacity: 0.4;
 }
 div .card-body {
   background-color: #262222;
