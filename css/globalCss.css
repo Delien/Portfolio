@@ -3,6 +3,7 @@
 * {
   font-size: 1rem;
   color: whitesmoke;
+  scroll-behavior: smooth;
 }
 hr {
   border: 0.01em solid white;
@@ -128,10 +129,57 @@ div .card-body {
   width: 50%;
 }
 .photo {
-  width: 20vw;
+  width: 19vw;
 }
 .photo:hover {
   opacity: 0.5;
+}
+#scrollUp {
+  position: fixed;
+  bottom: 10px;
+  right: -100px;
+  opacity: 0.5;
+}
+/* Sidebar ------------------------------*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1e1b1b;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+#main {
+  transition: margin 0.5s;
+  padding: 20px;
+}
+.openArrow {
+  position: fixed;
+  top: 30%;
+  left: -2.25rem;
+  transition-delay: 1s;
+}
+.openArrow img:hover {
+  position: fixed;
+  left: 0rem;
+}
+.openArrow img {
+  width: 5%;
 }
 /* Responsive Design 
 -------------------------------------*/
@@ -152,6 +200,9 @@ div .card-body {
   .card-text {
     font-size: 0.7rem;
   }
+  .openArrow {
+    left: -0.75rem;
+  }
 }
 
 @media all and (max-width: 536px) {
@@ -167,5 +218,14 @@ div .card-body {
   }
   .photo {
     width: 25vw;
+  }
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+  .openArrow {
+    left: -0.5rem;
   }
 }

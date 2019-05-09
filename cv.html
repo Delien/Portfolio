@@ -16,7 +16,7 @@
     <meta charset="utf-8" />
   </head>
 
-  <body>
+  <body id="main">
     <div class="container col-10 span-1">
       <!-- Header général du site, avec barre nav -->
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -45,6 +45,7 @@
           </ul>
         </div>
       </nav>
+      <div id="contactsup"></div>
       <header>
         <img
           src="./pictures/banniere2.jpg"
@@ -52,25 +53,29 @@
           alt="bannière du site"
         />
       </header>
+
       <!--Barre de Nav partie CV-->
-
-      <nav2>
-        <ul>
-          <a href="#contactsup"><li>Contact</li></a>
-          <a href="#introsup"><li>Introduction</li></a>
-          <a href="#expsup"><li>Expériences</li></a>
-          <a href="#dipsup"><li>Formations</li></a>
-          <a href="#infosup"><li>Informatique</li></a>
-          <a href="#compsup"><li>Compétences</li></a>
-          <a href="#atoutssup"><li>Atouts</li></a>
-          <a href="#intersup"><li>Centres d'intérêts</li></a>
-          <a href="#permsup"><li>Permis</li></a>
-        </ul>
-      </nav2>
-
-      <div class="pdf">
-        <p><a href="./pdf/cv.pdf">En version PDF</a></p>
+      <span class="openArrow" onclick="openNav()"
+        ><img
+          src="./pictures/sideArrow.png"
+          alt="sidenav arrow"
+          class="sideArrow"
+      /></span>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="#contactsup">Contact</a>
+        <a href="#contactsup">Introduction</a>
+        <a href="#expsup">Expériences</a>
+        <a href="#dipsup">Formations</a>
+        <a href="#infosup">Informatique</a>
+        <a href="#compsup">Compétences</a>
+        <a href="#atoutssup">Atouts</a>
+        <a href="#intersup">Centres d'intérêts</a>
+        <a href="#permsup">Permis</a>
       </div>
+
       <div class="row">
         <div class="col-3">
           <a
@@ -80,7 +85,7 @@
             ><img src="./pictures/maPhoto.jpg" class="photo"
           /></a>
         </div>
-        <div class="col">
+        <div class="col contactIntro">
           <ul>
             <li class="phone"><strong>Tel :</strong> +33 6 11 58 41 32</li>
             <li class="mail">
@@ -92,20 +97,19 @@
             <li class="house">
               <strong>Adresse :</strong> 309 rue Guy Moquet, 59120 LOOS
             </li>
-            <div id="introsup"></div>
           </ul>
-          <div id="expsup"></div>
 
-          <div id="intro">
-            <p>
-              "Suivant actuellement la formation de développeur web JavaScript
-              et React.Js de la Wild Code School, je suis disponible à partir
-              d'Août pour un stage d'une durée de 2 à 4 mois."
-            </p>
-          </div>
+          <div id="expsup"></div>
+          <p>
+            "Suivant actuellement la formation de développeur web JavaScript et
+            React.Js de la Wild Code School, je suis disponible à partir d'Août
+            pour un stage d'une durée de 2 à 4 mois."
+          </p>
         </div>
       </div>
-      <hr />
+
+      <p><a href="./pdf/cv.pdf">En version PDF</a></p>
+
       <div id="exp">
         <h1>Expérience</h1>
         <ul>
@@ -142,8 +146,6 @@
           </li>
         </ul>
       </div>
-
-      <hr />
 
       <div id="dip">
         <h1>Formations</h1>
@@ -191,8 +193,6 @@
         </ul>
       </div>
 
-      <hr />
-
       <div id="info">
         <div id="compsup"></div>
 
@@ -225,8 +225,6 @@
         </div>
       </div>
 
-      <hr />
-
       <div id="comp">
         <div id="atoutssup"></div>
         <h1>Compétences</h1>
@@ -236,8 +234,6 @@
           <li>Travail en équipe</li>
         </ul>
       </div>
-
-      <hr />
 
       <div id="atouts">
         <div id="intersup"></div>
@@ -249,8 +245,6 @@
           <li>Sérieux</li>
         </ul>
       </div>
-
-      <hr />
 
       <div id="inter">
         <div id="permsup"></div>
@@ -307,6 +301,9 @@
           © 2018 Copyright: Portfolio by Nathan Marcy
         </div>
       </footer>
+      <div id="scrollUp">
+        <a href="#top"><img src="./pictures/to_top.png"/></a>
+      </div>
       <script
         src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -322,6 +319,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"
       ></script>
+      <script src="./myscript.js"></script>
     </div>
   </body>
 </html>
