@@ -245,11 +245,14 @@ body.openNav {
   .card-title {
     font-size: 0.8rem;
   }
-  .openArrow {
-    left: -0.75rem;
-  }
   .contactIntro {
     padding-top: 5rem;
+  }
+  #openArrow {
+    margin-left: -8.2rem;
+  }
+  #openArrow:hover {
+    margin-left: -6.5rem;
   }
 }
 
@@ -274,11 +277,14 @@ body.openNav {
   .sidenav a {
     font-size: 18px;
   }
-  .openArrow {
-    left: -0.5rem;
-  }
   .contactIntro {
     padding-top: 0;
     padding-right: 2.25rem;
+  }
+  #openArrow {
+    margin-left: -5.25rem;
+  }
+  #openArrow:hover {
+    margin-left: -4.5rem;
   }
 }
