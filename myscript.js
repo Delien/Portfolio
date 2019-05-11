@@ -1,12 +1,12 @@
 function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "125px";
-  document.getElementById("main").style.marginRight = "-125px";
+  document.getElementById("mySidenav").style.width = "17.5rem";
+  document.body.style.marginLeft = "9.75rem";
+  document.body.style.marginRight = "-9.75rem";
 }
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("main").style.marginLeft = "0";
-  document.getElementById("main").style.marginRight = "0";
+  document.body.style.marginLeft = "0";
+  document.body.style.marginRight = "0";
 }
 
 jQuery(function() {

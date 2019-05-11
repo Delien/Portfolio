@@ -182,9 +182,8 @@ div .card-body {
 .sidenav a:hover {
   color: #f1f1f1;
 }
-#main {
+body {
   transition: margin 0.5s;
-  padding: 20px;
 }
 .openArrow {
   position: fixed;
@@ -216,7 +215,10 @@ div .card-body {
     height: 27rem;
   }
   .card-text {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
+  }
+  .card-title {
+    font-size: 0.8rem;
   }
   .openArrow {
     left: -0.75rem;
@@ -233,6 +235,7 @@ div .card-body {
   .card {
     width: auto;
     margin: 1.5rem 0 0 0;
+    height: 25.5rem;
   }
   .card-img-top {
     height: 10rem;
