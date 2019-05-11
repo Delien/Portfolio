@@ -159,6 +159,7 @@ div .card-body {
   margin-bottom: 2rem 0;
 }
 /* Sidebar ------------------------------*/
+
 .sidenav {
   height: 100%;
   width: 0;
@@ -169,7 +170,11 @@ div .card-body {
   background-color: #1e1b1b;
   overflow-x: hidden;
   padding-top: 60px;
-  transition: 0.5s;
+  transition: 0.8s;
+}
+.sidenav.openNav {
+  width: 17.5rem;
+  overflow-x: auto;
 }
 .sidenav a {
   padding: 8px 8px 8px 32px;
@@ -183,20 +188,40 @@ div .card-body {
   color: #f1f1f1;
 }
 body {
+  transition: margin 0.8s;
+  margin: 0;
+}
+body.openNav {
+  margin-left: 9.75rem;
+  margin-right: -9.75rem;
+}
+#openArrow {
+  position: fixed;
+  top: 3rem;
+  margin-left: -11.8rem;
+  transition-delay: 1s;
+  width: 4rem;
+  height: 30rem;
+  border: solid #1e1b1b 1px;
+  border-radius: 1rem;
+  background-color: white;
+  opacity: 0.2;
+  background-image: url(../pictures/arrow.jpg);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: right;
+  background-size: 50%;
   transition: margin 0.5s;
 }
-.openArrow {
+#openArrow:hover {
   position: fixed;
-  top: 30%;
-  left: -2.25rem;
-  transition-delay: 1s;
+  margin-left: -10rem;
 }
-.openArrow img:hover {
-  position: fixed;
-  left: 0rem;
-}
-.openArrow img {
-  width: 5%;
+#closebtn {
+  width: 100%;
+  background-color: firebrick;
+  font-size: 1.5rem;
+  padding-left: 15rem;
 }
 /* Responsive Design 
 -------------------------------------*/

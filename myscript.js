@@ -1,13 +1,19 @@
-function openNav() {
-  document.getElementById("mySidenav").style.width = "17.5rem";
-  document.body.style.marginLeft = "9.75rem";
-  document.body.style.marginRight = "-9.75rem";
-}
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  document.body.style.marginLeft = "0";
-  document.body.style.marginRight = "0";
-}
+const openNav = () => {
+  $("body").toggleClass("openNav");
+  $(".sidenav").toggleClass("openNav");
+};
+
+const closeNav = () => {
+  $("body").removeClass("openNav");
+  $(".sidenav").removeClass("openNav");
+};
+
+$("#openArrow").click(function() {
+  openNav();
+});
+$("#closebtn").click(function() {
+  closeNav();
+});
 
 jQuery(function() {
   $(function() {
