@@ -212,7 +212,7 @@ body.openNav {
   background-position-x: right;
   background-size: 50%;
   transition: margin 0.5s;
-  cursor : pointer ;
+  cursor: pointer;
 }
 #openArrow:hover {
   position: fixed;
@@ -224,9 +224,30 @@ body.openNav {
   font-size: 1.5rem;
   padding-left: 15rem;
   cursor: pointer;
+  opacity: 0.6;
+}
+#closebtn:hover {
+  opacity: 1;
+  font-size: 1.55rem;
+}
 /* Responsive Design 
 -------------------------------------*/
-
+@media all and (max-width: 1400px) {
+  #openArrow {
+    margin-left: -11rem;
+  }
+  #openArrow:hover {
+    margin-left: -8.25em;
+  }
+}
+@media all and (max-width: 1250px) {
+  #openArrow {
+    margin-left: -10rem;
+  }
+  #openArrow:hover {
+    margin-left: -8.25em;
+  }
+}
 @media all and (max-width: 1024px) {
   .banniere {
     display: none;
@@ -257,7 +278,7 @@ body.openNav {
   }
 }
 
-@media all and (max-width: 536px) {
+@media all and (max-width: 767px) {
   .pcWeb {
     display: none;
   }
