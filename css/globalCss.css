@@ -212,6 +212,7 @@ body.openNav {
   background-position-x: right;
   background-size: 50%;
   transition: margin 0.5s;
+  cursor : pointer ;
 }
 #openArrow:hover {
   position: fixed;
@@ -222,7 +223,7 @@ body.openNav {
   background-color: firebrick;
   font-size: 1.5rem;
   padding-left: 15rem;
-}
+  cursor: pointer;
 /* Responsive Design 
 -------------------------------------*/
 
