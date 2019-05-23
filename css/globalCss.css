@@ -16,8 +16,8 @@ a {
 /* Bannière */
 .img-fluid {
   min-width: 100%;
-  height: 10rem;
-  margin-bottom: 0.5rem;
+  height: 14rem;
+  margin-bottom: 1rem;
 }
 
 /* Footer */
@@ -76,7 +76,6 @@ body {
 
 .pcWeb {
   width: 100%;
-  height: 18rem;
   margin-top: 1rem;
 }
 .text-hide img {
