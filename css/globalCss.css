@@ -105,13 +105,23 @@ body {
 /* Page Blog */
 
 .card-img-top {
+  width: 99%;
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+  z-index: 0;
+}
+.card a {
+  background-color: #262222;
   height: 14.5rem;
+  z-index: 1;
 }
 .card-img-top:hover {
   opacity: 0.4;
 }
 div .card-body {
   background-color: #262222;
+  z-index: 1;
 }
 .card {
   height: 31rem;
@@ -261,7 +271,7 @@ body.openNav {
     height: 27rem;
   }
   .card-text {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
   }
   .card-title {
     font-size: 0.8rem;
@@ -286,8 +296,8 @@ body.openNav {
     margin: 1.5rem 0 0 0;
     height: 25.5rem;
   }
-  .card-img-top {
-    height: 10rem;
+  .card a {
+    height: 7.5rem;
   }
   .photo {
     width: 25vw;
