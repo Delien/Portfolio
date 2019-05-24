@@ -122,6 +122,7 @@ body {
 div .card-body {
   background-color: #262222;
   z-index: 1;
+  padding: 1rem 1rem 0 1rem;
 }
 .card {
   height: 31rem;
@@ -261,6 +262,9 @@ body.openNav {
   .banniere {
     display: none;
   }
+  .intro {
+    margin-top: 1rem;
+  }
   .pcWeb {
     height: 50%;
     width: 50%;
@@ -268,13 +272,12 @@ body.openNav {
   .card {
     width: auto;
     margin: 2rem 0 0 0;
-    height: 27rem;
   }
   .card-text {
-    font-size: 0.6rem;
+    font-size: 0.9rem;
   }
   .card-title {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   .contactIntro {
     padding-top: 5rem;
@@ -299,6 +302,12 @@ body.openNav {
   .card a {
     height: 7.5rem;
   }
+  .card-text {
+    font-size: 0.7rem;
+  }
+  .card-title {
+    font-size: 0.8rem;
+  }
   .photo {
     width: 25vw;
   }
@@ -317,5 +326,16 @@ body.openNav {
   }
   #openArrow:hover {
     margin-left: -4.5rem;
+  }
+}
+@media all and (max-width: 335px) {
+  .card-body {
+    box-sizing: content-box;
+  }
+  .card-text {
+    font-size: 0.5rem;
+  }
+  .card-title {
+    font-size: 0.6rem;
   }
 }
