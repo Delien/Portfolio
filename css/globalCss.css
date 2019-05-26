@@ -154,7 +154,11 @@ div .card-body {
   opacity: 0.5;
 }
 .contactIntro {
-  padding-top: 13rem;
+  padding-top: 3.5rem;
+}
+.cvTopName {
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .categories {
   margin-top: 2.5rem;
@@ -295,6 +299,13 @@ body.openNav {
   #openArrow:hover {
     margin-left: -6.5rem;
   }
+  .cvTopName {
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.4rem;
+  }
+  .contactIntro {
+    padding-top: 1rem;
+  }
 }
 
 @media all and (max-width: 767px) {
@@ -316,7 +327,15 @@ body.openNav {
     font-size: 0.8rem;
   }
   .photo {
-    width: 25vw;
+    width: 30vw;
+  }
+  .cvTopName {
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.4rem;
+    padding-left: 0.9rem;
+  }
+  .contactIntro {
+    padding-top: 1rem;
   }
   .sidenav {
     padding-top: 15px;
