@@ -50,6 +50,7 @@ h1 {
   border-bottom: 0.01rem solid whitesmoke;
   padding: 0 1.5rem 1rem 0;
   margin: 0.5rem 0 1rem 0;
+  font-family: "Montserrat Alternates", sans-serif;
 }
 .allFooter h6 {
   font-size: 0.75rem;
@@ -63,6 +64,10 @@ h1 {
 .allFooter button {
   position: relative;
   bottom: 0.5rem;
+}
+nav .navbar-brand {
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-size: 2rem;
 }
 /* Backgrounds */
 
@@ -141,6 +146,9 @@ div .card-body {
   width: 100%;
   margin: 1rem auto;
 }
+.card h5 {
+  font-family: "Montserrat Alternates", sans-serif;
+}
 /* Page C.V 
 -------------------------------------*/
 .langages {
@@ -166,6 +174,14 @@ div .card-body {
   padding-bottom: 1rem;
   margin-bottom: 2rem;
 }
+.cvTopName h3 {
+  color: yellowgreen;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+.cvTopName h2 {
+  color: yellowgreen;
+  font-family: "Varela Round", sans-serif;
+}
 .categories {
   margin-top: 2.5rem;
 }
@@ -188,6 +204,9 @@ div .card-body {
 }
 .description {
   margin-top: 1rem;
+}
+strong {
+  font-family: "Varela Round", sans-serif;
 }
 /* Sidebar ------------------------------*/
 
