@@ -75,7 +75,7 @@ body {
 ---------------------------------------*/
 
 .pcWeb {
-  width: 100%;
+  height: 100%;
   margin-top: 1rem;
 }
 .text-hide img {
@@ -101,7 +101,10 @@ body {
   position: relative;
   left: 1.75rem;
 }
-
+.photoIndex {
+  width: 15rem;
+  margin: 1rem 0;
+}
 /* Page Blog */
 
 .card-img-top {
@@ -264,10 +267,6 @@ body.openNav {
   }
   .intro {
     margin-top: 1rem;
-  }
-  .pcWeb {
-    height: 50%;
-    width: 50%;
   }
   .card {
     width: auto;
