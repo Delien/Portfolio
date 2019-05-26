@@ -105,6 +105,9 @@ body {
   width: 15rem;
   margin: 1rem 0;
 }
+.indexTitle {
+  margin: 1.3rem 0;
+}
 /* Page Blog */
 
 .card-img-top {
