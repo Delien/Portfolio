@@ -119,6 +119,11 @@ body {
 .indexTitle {
   margin: 1.3rem 0;
 }
+
+p strong {
+  color: yellowgreen;
+  font-weight: bold;
+}
 /* Page Blog */
 
 .card-img-top {
@@ -148,6 +153,7 @@ div .card-body {
 }
 .card h5 {
   font-family: "Montserrat Alternates", sans-serif;
+  color: yellowgreen;
 }
 /* Page C.V 
 -------------------------------------*/
@@ -204,6 +210,9 @@ div .card-body {
 }
 .description {
   margin-top: 1rem;
+}
+.catchPhraseCv {
+  font-style: italic;
 }
 strong {
   font-family: "Varela Round", sans-serif;
