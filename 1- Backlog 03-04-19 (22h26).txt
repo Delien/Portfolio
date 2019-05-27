@@ -1,5 +1,0 @@
-- Mise du site "v1" en partie blog
-- Réparation de tout les liens sur le blog "v1"
-- Refonte de l'architecture du site en préparation de la v1.5 (renommage dossier, déplacement des pages)
-- Préparations des liens suite refonte
-- purge du dossier "pictures" -> sauvegarde faite dans "./blog/v1/Images_v1")
