@@ -217,6 +217,9 @@ div .card-body {
 strong {
   font-family: "Varela Round", sans-serif;
 }
+.quote {
+  font-size: 1.5rem;
+}
 /* Sidebar ------------------------------*/
 
 .sidenav {
