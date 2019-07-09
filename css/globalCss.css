@@ -132,6 +132,7 @@ p strong {
   display: block;
   margin: 0 auto;
   z-index: 0;
+  max-height: 100%;
 }
 .card a {
   background-color: #262222;
@@ -260,10 +261,10 @@ body.openNav {
 #openArrow {
   position: fixed;
   top: 3rem;
-  margin-left: -11.8rem;
+  margin-left: -18rem;
   transition-delay: 1s;
-  width: 4rem;
-  height: 30rem;
+  width: 9rem;
+  height: 100%;
   border: solid #1e1b1b 1px;
   border-radius: 1rem;
   background-color: white;
@@ -278,7 +279,7 @@ body.openNav {
 }
 #openArrow:hover {
   position: fixed;
-  margin-left: -10rem;
+  margin-left: -16rem;
 }
 #closebtn {
   width: 100%;
@@ -294,20 +295,20 @@ body.openNav {
 }
 /* Responsive Design 
 -------------------------------------*/
-@media all and (max-width: 1400px) {
+@media all and (max-width: 1600px) {
   #openArrow {
-    margin-left: -11rem;
+    margin-left: -15.5rem;
   }
   #openArrow:hover {
-    margin-left: -8.25em;
+    margin-left: -14rem;
   }
 }
 @media all and (max-width: 1250px) {
   #openArrow {
-    margin-left: -10rem;
+    margin-left: -14rem;
   }
   #openArrow:hover {
-    margin-left: -8.25em;
+    margin-left: -12.25em;
   }
 }
 @media all and (max-width: 1024px) {
@@ -331,10 +332,10 @@ body.openNav {
     padding-top: 5rem;
   }
   #openArrow {
-    margin-left: -8.2rem;
+    margin-left: -13rem;
   }
   #openArrow:hover {
-    margin-left: -6.5rem;
+    margin-left: -10.5rem;
   }
   .cvTopName {
     padding-bottom: 0.5rem;
@@ -388,10 +389,10 @@ body.openNav {
     padding-right: 2.25rem;
   }
   #openArrow {
-    margin-left: -5.25rem;
+    margin-left: -10.4rem;
   }
   #openArrow:hover {
-    margin-left: -4.5rem;
+    margin-left: -8.5rem;
   }
 }
 @media all and (max-width: 335px) {
