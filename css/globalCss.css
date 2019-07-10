@@ -221,6 +221,9 @@ strong {
 .quote {
   font-size: 1.5rem;
 }
+.bold {
+  font-weight: bold;
+}
 /* Sidebar ------------------------------*/
 
 .sidenav {
